@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5B03BEC21C9F4F8C00FFC519 /* Data_Structs_and_Algorithms.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B03BEC11C9F4F8C00FFC519 /* Data_Structs_and_Algorithms.h */; };
 		5B03BEC41C9F4F8C00FFC519 /* Data_Structs_and_Algorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B03BEC31C9F4F8C00FFC519 /* Data_Structs_and_Algorithms.m */; };
+		5B715F761CA76C6E00134BB0 /* Randoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B715F731CA76C6E00134BB0 /* Randoms.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,88 @@
 		5B03BEBE1C9F4F8C00FFC519 /* libData Structs and Algorithms.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libData Structs and Algorithms.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B03BEC11C9F4F8C00FFC519 /* Data_Structs_and_Algorithms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Data_Structs_and_Algorithms.h; sourceTree = "<group>"; };
 		5B03BEC31C9F4F8C00FFC519 /* Data_Structs_and_Algorithms.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Data_Structs_and_Algorithms.m; sourceTree = "<group>"; };
+		5B03BECA1C9F50A000FFC519 /* Data Structs and Algorithms-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Data Structs and Algorithms-Bridging-Header.h"; sourceTree = "<group>"; };
+		5B03BECD1C9F50D000FFC519 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		5B715F721CA76C6E00134BB0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B715F731CA76C6E00134BB0 /* Randoms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Randoms.swift; path = ../Randoms.swift; sourceTree = "<group>"; };
+		5B715F741CA76C6E00134BB0 /* SwiftRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftRandom.h; sourceTree = "<group>"; };
+		5B715F791CA76C9C00134BB0 /* Callsite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Callsite.swift; sourceTree = "<group>"; };
+		5B715F7B1CA76C9C00134BB0 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		5B715F7C1CA76C9C00134BB0 /* QuickConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickConfiguration.h; sourceTree = "<group>"; };
+		5B715F7D1CA76C9C00134BB0 /* QuickConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickConfiguration.m; sourceTree = "<group>"; };
+		5B715F7E1CA76C9C00134BB0 /* QuickConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickConfiguration.swift; sourceTree = "<group>"; };
+		5B715F801CA76C9C00134BB0 /* DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSL.swift; sourceTree = "<group>"; };
+		5B715F811CA76C9C00134BB0 /* QCKDSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCKDSL.h; sourceTree = "<group>"; };
+		5B715F821CA76C9C00134BB0 /* QCKDSL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCKDSL.m; sourceTree = "<group>"; };
+		5B715F831CA76C9C00134BB0 /* World+DSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "World+DSL.h"; sourceTree = "<group>"; };
+		5B715F841CA76C9C00134BB0 /* World+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "World+DSL.swift"; sourceTree = "<group>"; };
+		5B715F851CA76C9C00134BB0 /* ErrorUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorUtility.swift; sourceTree = "<group>"; };
+		5B715F861CA76C9C00134BB0 /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		5B715F871CA76C9C00134BB0 /* ExampleGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleGroup.swift; sourceTree = "<group>"; };
+		5B715F881CA76C9C00134BB0 /* ExampleMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleMetadata.swift; sourceTree = "<group>"; };
+		5B715F891CA76C9C00134BB0 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		5B715F8B1CA76C9C00134BB0 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
+		5B715F8C1CA76C9C00134BB0 /* ExampleHooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleHooks.swift; sourceTree = "<group>"; };
+		5B715F8D1CA76C9C00134BB0 /* HooksPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HooksPhase.swift; sourceTree = "<group>"; };
+		5B715F8E1CA76C9C00134BB0 /* SuiteHooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuiteHooks.swift; sourceTree = "<group>"; };
+		5B715F8F1CA76C9C00134BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B715F901CA76C9C00134BB0 /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
+		5B715F911CA76C9C00134BB0 /* NSString+QCKSelectorName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+QCKSelectorName.h"; sourceTree = "<group>"; };
+		5B715F921CA76C9C00134BB0 /* NSString+QCKSelectorName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+QCKSelectorName.m"; sourceTree = "<group>"; };
+		5B715F931CA76C9C00134BB0 /* Quick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quick.h; sourceTree = "<group>"; };
+		5B715F941CA76C9C00134BB0 /* QuickMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickMain.swift; sourceTree = "<group>"; };
+		5B715F951CA76C9C00134BB0 /* QuickSelectedTestSuiteBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSelectedTestSuiteBuilder.swift; sourceTree = "<group>"; };
+		5B715F961CA76C9C00134BB0 /* QuickSpec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSpec.h; sourceTree = "<group>"; };
+		5B715F971CA76C9C00134BB0 /* QuickSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSpec.m; sourceTree = "<group>"; };
+		5B715F981CA76C9C00134BB0 /* QuickSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSpec.swift; sourceTree = "<group>"; };
+		5B715F991CA76C9C00134BB0 /* QuickTestSuite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickTestSuite.swift; sourceTree = "<group>"; };
+		5B715F9A1CA76C9C00134BB0 /* String+FileName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+FileName.swift"; sourceTree = "<group>"; };
+		5B715F9B1CA76C9C00134BB0 /* World.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = World.h; sourceTree = "<group>"; };
+		5B715F9C1CA76C9C00134BB0 /* World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
+		5B715F9D1CA76C9C00134BB0 /* XCTestSuite+QuickTestSuiteBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XCTestSuite+QuickTestSuiteBuilder.m"; sourceTree = "<group>"; };
+		5B715F9F1CA76C9C00134BB0 /* FocusedTests+ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FocusedTests+ObjC.m"; sourceTree = "<group>"; };
+		5B715FA01CA76C9C00134BB0 /* FocusedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusedTests.swift; sourceTree = "<group>"; };
+		5B715FA11CA76C9C00134BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B715FA21CA76C9C00134BB0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5B715FA41CA76C9C00134BB0 /* SpecRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecRunner.swift; sourceTree = "<group>"; };
+		5B715FA51CA76C9C00134BB0 /* TestRun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRun.swift; sourceTree = "<group>"; };
+		5B715FA81CA76C9C00134BB0 /* FunctionalTests_SharedExamplesTests_SharedExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalTests_SharedExamplesTests_SharedExamples.swift; sourceTree = "<group>"; };
+		5B715FAA1CA76C9C00134BB0 /* AfterEachTests+ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AfterEachTests+ObjC.m"; sourceTree = "<group>"; };
+		5B715FAB1CA76C9C00134BB0 /* AfterEachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterEachTests.swift; sourceTree = "<group>"; };
+		5B715FAC1CA76C9C00134BB0 /* AfterSuiteTests+ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AfterSuiteTests+ObjC.m"; sourceTree = "<group>"; };
+		5B715FAD1CA76C9C00134BB0 /* AfterSuiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterSuiteTests.swift; sourceTree = "<group>"; };
+		5B715FAE1CA76C9C00134BB0 /* BeforeEachTests+ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BeforeEachTests+ObjC.m"; sourceTree = "<group>"; };
+		5B715FAF1CA76C9C00134BB0 /* BeforeEachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeEachTests.swift; sourceTree = "<group>"; };
+		5B715FB01CA76C9C00134BB0 /* BeforeSuiteTests+ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BeforeSuiteTests+ObjC.m"; sourceTree = "<group>"; };
+		5B715FB11CA76C9C00134BB0 /* BeforeSuiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeSuiteTests.swift; sourceTree = "<group>"; };
+		5B715FB41CA76C9C00134BB0 /* Configuration+AfterEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Configuration+AfterEach.swift"; sourceTree = "<group>"; };
+		5B715FB51CA76C9C00134BB0 /* Configuration+AfterEachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Configuration+AfterEachTests.swift"; sourceTree = "<group>"; };
+		5B715FB71CA76C9C00134BB0 /* Configuration+BeforeEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Configuration+BeforeEach.swift"; sourceTree = "<group>"; };
+		5B715FB81CA76C9C00134BB0 /* Configuration+BeforeEachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Configuration+BeforeEachTests.swift"; sourceTree = "<group>"; };
+		5B715FB91CA76C9C00134BB0 /* ContextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextTests.swift; sourceTree = "<group>"; };
+		5B715FBA1CA76C9C00134BB0 /* DescribeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescribeTests.swift; sourceTree = "<group>"; };
+		5B715FBB1CA76C9C00134BB0 /* FailureTests+ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FailureTests+ObjC.m"; sourceTree = "<group>"; };
+		5B715FBC1CA76C9C00134BB0 /* FailureUsingXCTAssertTests+ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FailureUsingXCTAssertTests+ObjC.m"; sourceTree = "<group>"; };
+		5B715FBD1CA76C9C00134BB0 /* ItTests+ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ItTests+ObjC.m"; sourceTree = "<group>"; };
+		5B715FBE1CA76C9C00134BB0 /* ItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItTests.swift; sourceTree = "<group>"; };
+		5B715FBF1CA76C9C00134BB0 /* PendingTests+ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PendingTests+ObjC.m"; sourceTree = "<group>"; };
+		5B715FC01CA76C9C00134BB0 /* PendingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingTests.swift; sourceTree = "<group>"; };
+		5B715FC11CA76C9C00134BB0 /* SharedExamples+BeforeEachTests+ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SharedExamples+BeforeEachTests+ObjC.m"; sourceTree = "<group>"; };
+		5B715FC21CA76C9C00134BB0 /* SharedExamples+BeforeEachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedExamples+BeforeEachTests.swift"; sourceTree = "<group>"; };
+		5B715FC31CA76C9C00134BB0 /* SharedExamplesTests+ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SharedExamplesTests+ObjC.m"; sourceTree = "<group>"; };
+		5B715FC41CA76C9C00134BB0 /* SharedExamplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedExamplesTests.swift; sourceTree = "<group>"; };
+		5B715FC61CA76C9C00134BB0 /* QCKSpecRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCKSpecRunner.h; sourceTree = "<group>"; };
+		5B715FC71CA76C9C00134BB0 /* QCKSpecRunner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCKSpecRunner.m; sourceTree = "<group>"; };
+		5B715FC81CA76C9C00134BB0 /* QuickSpec+QuickSpec_MethodList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuickSpec+QuickSpec_MethodList.h"; sourceTree = "<group>"; };
+		5B715FC91CA76C9C00134BB0 /* QuickSpec+QuickSpec_MethodList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QuickSpec+QuickSpec_MethodList.m"; sourceTree = "<group>"; };
+		5B715FCA1CA76C9C00134BB0 /* QuickTestsBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickTestsBridgingHeader.h; sourceTree = "<group>"; };
+		5B715FCB1CA76C9C00134BB0 /* XCTestCaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCaseProvider.swift; sourceTree = "<group>"; };
+		5B715FCC1CA76C9C00134BB0 /* XCTestObservationCenter+QCKSuspendObservation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCTestObservationCenter+QCKSuspendObservation.h"; sourceTree = "<group>"; };
+		5B715FCD1CA76C9C00134BB0 /* XCTestObservationCenter+QCKSuspendObservation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XCTestObservationCenter+QCKSuspendObservation.m"; sourceTree = "<group>"; };
+		5B715FCE1CA76C9C00134BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B715FCF1CA76C9C00134BB0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5B715FD01CA76C9C00134BB0 /* QuickConfigurationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickConfigurationTests.m; sourceTree = "<group>"; };
+		5B715FD41CA76D1F00134BB0 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +127,11 @@
 		5B03BEB51C9F4F8C00FFC519 = {
 			isa = PBXGroup;
 			children = (
+				5B715F771CA76C9C00134BB0 /* QuickSources */,
+				5B715F751CA76C6E00134BB0 /* SwiftRandom */,
 				5B03BEC01C9F4F8C00FFC519 /* Data Structs and Algorithms */,
 				5B03BEBF1C9F4F8C00FFC519 /* Products */,
+				5B715FD21CA76D1800134BB0 /* DSA_Test */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +146,236 @@
 		5B03BEC01C9F4F8C00FFC519 /* Data Structs and Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				5B715FD31CA76D1F00134BB0 /* Structs */,
+				5B715FD11CA76D1100134BB0 /* Algorithms */,
 				5B03BEC11C9F4F8C00FFC519 /* Data_Structs_and_Algorithms.h */,
 				5B03BEC31C9F4F8C00FFC519 /* Data_Structs_and_Algorithms.m */,
+				5B03BECA1C9F50A000FFC519 /* Data Structs and Algorithms-Bridging-Header.h */,
+				5B03BECD1C9F50D000FFC519 /* License.txt */,
 			);
 			path = "Data Structs and Algorithms";
+			sourceTree = "<group>";
+		};
+		5B715F751CA76C6E00134BB0 /* SwiftRandom */ = {
+			isa = PBXGroup;
+			children = (
+				5B715F721CA76C6E00134BB0 /* Info.plist */,
+				5B715F731CA76C6E00134BB0 /* Randoms.swift */,
+				5B715F741CA76C6E00134BB0 /* SwiftRandom.h */,
+			);
+			name = SwiftRandom;
+			path = "../Swift Libraries/SwiftRandom-master/SwiftRandom";
+			sourceTree = "<group>";
+		};
+		5B715F771CA76C9C00134BB0 /* QuickSources */ = {
+			isa = PBXGroup;
+			children = (
+				5B715F781CA76C9C00134BB0 /* Quick */,
+				5B715F9E1CA76C9C00134BB0 /* QuickFocusedTests */,
+				5B715FA31CA76C9C00134BB0 /* QuickTestHelpers */,
+				5B715FA61CA76C9C00134BB0 /* QuickTests */,
+			);
+			name = QuickSources;
+			path = "../Swift Libraries/Quick-master/Sources";
+			sourceTree = "<group>";
+		};
+		5B715F781CA76C9C00134BB0 /* Quick */ = {
+			isa = PBXGroup;
+			children = (
+				5B715F791CA76C9C00134BB0 /* Callsite.swift */,
+				5B715F7A1CA76C9C00134BB0 /* Configuration */,
+				5B715F7F1CA76C9C00134BB0 /* DSL */,
+				5B715F851CA76C9C00134BB0 /* ErrorUtility.swift */,
+				5B715F861CA76C9C00134BB0 /* Example.swift */,
+				5B715F871CA76C9C00134BB0 /* ExampleGroup.swift */,
+				5B715F881CA76C9C00134BB0 /* ExampleMetadata.swift */,
+				5B715F891CA76C9C00134BB0 /* Filter.swift */,
+				5B715F8A1CA76C9C00134BB0 /* Hooks */,
+				5B715F8F1CA76C9C00134BB0 /* Info.plist */,
+				5B715F901CA76C9C00134BB0 /* NSBundle+CurrentTestBundle.swift */,
+				5B715F911CA76C9C00134BB0 /* NSString+QCKSelectorName.h */,
+				5B715F921CA76C9C00134BB0 /* NSString+QCKSelectorName.m */,
+				5B715F931CA76C9C00134BB0 /* Quick.h */,
+				5B715F941CA76C9C00134BB0 /* QuickMain.swift */,
+				5B715F951CA76C9C00134BB0 /* QuickSelectedTestSuiteBuilder.swift */,
+				5B715F961CA76C9C00134BB0 /* QuickSpec.h */,
+				5B715F971CA76C9C00134BB0 /* QuickSpec.m */,
+				5B715F981CA76C9C00134BB0 /* QuickSpec.swift */,
+				5B715F991CA76C9C00134BB0 /* QuickTestSuite.swift */,
+				5B715F9A1CA76C9C00134BB0 /* String+FileName.swift */,
+				5B715F9B1CA76C9C00134BB0 /* World.h */,
+				5B715F9C1CA76C9C00134BB0 /* World.swift */,
+				5B715F9D1CA76C9C00134BB0 /* XCTestSuite+QuickTestSuiteBuilder.m */,
+			);
+			path = Quick;
+			sourceTree = "<group>";
+		};
+		5B715F7A1CA76C9C00134BB0 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				5B715F7B1CA76C9C00134BB0 /* Configuration.swift */,
+				5B715F7C1CA76C9C00134BB0 /* QuickConfiguration.h */,
+				5B715F7D1CA76C9C00134BB0 /* QuickConfiguration.m */,
+				5B715F7E1CA76C9C00134BB0 /* QuickConfiguration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		5B715F7F1CA76C9C00134BB0 /* DSL */ = {
+			isa = PBXGroup;
+			children = (
+				5B715F801CA76C9C00134BB0 /* DSL.swift */,
+				5B715F811CA76C9C00134BB0 /* QCKDSL.h */,
+				5B715F821CA76C9C00134BB0 /* QCKDSL.m */,
+				5B715F831CA76C9C00134BB0 /* World+DSL.h */,
+				5B715F841CA76C9C00134BB0 /* World+DSL.swift */,
+			);
+			path = DSL;
+			sourceTree = "<group>";
+		};
+		5B715F8A1CA76C9C00134BB0 /* Hooks */ = {
+			isa = PBXGroup;
+			children = (
+				5B715F8B1CA76C9C00134BB0 /* Closures.swift */,
+				5B715F8C1CA76C9C00134BB0 /* ExampleHooks.swift */,
+				5B715F8D1CA76C9C00134BB0 /* HooksPhase.swift */,
+				5B715F8E1CA76C9C00134BB0 /* SuiteHooks.swift */,
+			);
+			path = Hooks;
+			sourceTree = "<group>";
+		};
+		5B715F9E1CA76C9C00134BB0 /* QuickFocusedTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B715F9F1CA76C9C00134BB0 /* FocusedTests+ObjC.m */,
+				5B715FA01CA76C9C00134BB0 /* FocusedTests.swift */,
+				5B715FA11CA76C9C00134BB0 /* Info.plist */,
+				5B715FA21CA76C9C00134BB0 /* main.swift */,
+			);
+			path = QuickFocusedTests;
+			sourceTree = "<group>";
+		};
+		5B715FA31CA76C9C00134BB0 /* QuickTestHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				5B715FA41CA76C9C00134BB0 /* SpecRunner.swift */,
+				5B715FA51CA76C9C00134BB0 /* TestRun.swift */,
+			);
+			path = QuickTestHelpers;
+			sourceTree = "<group>";
+		};
+		5B715FA61CA76C9C00134BB0 /* QuickTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B715FA71CA76C9C00134BB0 /* Fixtures */,
+				5B715FA91CA76C9C00134BB0 /* FunctionalTests */,
+				5B715FC51CA76C9C00134BB0 /* Helpers */,
+				5B715FCE1CA76C9C00134BB0 /* Info.plist */,
+				5B715FCF1CA76C9C00134BB0 /* main.swift */,
+				5B715FD01CA76C9C00134BB0 /* QuickConfigurationTests.m */,
+			);
+			path = QuickTests;
+			sourceTree = "<group>";
+		};
+		5B715FA71CA76C9C00134BB0 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				5B715FA81CA76C9C00134BB0 /* FunctionalTests_SharedExamplesTests_SharedExamples.swift */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		5B715FA91CA76C9C00134BB0 /* FunctionalTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B715FAA1CA76C9C00134BB0 /* AfterEachTests+ObjC.m */,
+				5B715FAB1CA76C9C00134BB0 /* AfterEachTests.swift */,
+				5B715FAC1CA76C9C00134BB0 /* AfterSuiteTests+ObjC.m */,
+				5B715FAD1CA76C9C00134BB0 /* AfterSuiteTests.swift */,
+				5B715FAE1CA76C9C00134BB0 /* BeforeEachTests+ObjC.m */,
+				5B715FAF1CA76C9C00134BB0 /* BeforeEachTests.swift */,
+				5B715FB01CA76C9C00134BB0 /* BeforeSuiteTests+ObjC.m */,
+				5B715FB11CA76C9C00134BB0 /* BeforeSuiteTests.swift */,
+				5B715FB21CA76C9C00134BB0 /* Configuration */,
+				5B715FB91CA76C9C00134BB0 /* ContextTests.swift */,
+				5B715FBA1CA76C9C00134BB0 /* DescribeTests.swift */,
+				5B715FBB1CA76C9C00134BB0 /* FailureTests+ObjC.m */,
+				5B715FBC1CA76C9C00134BB0 /* FailureUsingXCTAssertTests+ObjC.m */,
+				5B715FBD1CA76C9C00134BB0 /* ItTests+ObjC.m */,
+				5B715FBE1CA76C9C00134BB0 /* ItTests.swift */,
+				5B715FBF1CA76C9C00134BB0 /* PendingTests+ObjC.m */,
+				5B715FC01CA76C9C00134BB0 /* PendingTests.swift */,
+				5B715FC11CA76C9C00134BB0 /* SharedExamples+BeforeEachTests+ObjC.m */,
+				5B715FC21CA76C9C00134BB0 /* SharedExamples+BeforeEachTests.swift */,
+				5B715FC31CA76C9C00134BB0 /* SharedExamplesTests+ObjC.m */,
+				5B715FC41CA76C9C00134BB0 /* SharedExamplesTests.swift */,
+			);
+			path = FunctionalTests;
+			sourceTree = "<group>";
+		};
+		5B715FB21CA76C9C00134BB0 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				5B715FB31CA76C9C00134BB0 /* AfterEach */,
+				5B715FB61CA76C9C00134BB0 /* BeforeEach */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		5B715FB31CA76C9C00134BB0 /* AfterEach */ = {
+			isa = PBXGroup;
+			children = (
+				5B715FB41CA76C9C00134BB0 /* Configuration+AfterEach.swift */,
+				5B715FB51CA76C9C00134BB0 /* Configuration+AfterEachTests.swift */,
+			);
+			path = AfterEach;
+			sourceTree = "<group>";
+		};
+		5B715FB61CA76C9C00134BB0 /* BeforeEach */ = {
+			isa = PBXGroup;
+			children = (
+				5B715FB71CA76C9C00134BB0 /* Configuration+BeforeEach.swift */,
+				5B715FB81CA76C9C00134BB0 /* Configuration+BeforeEachTests.swift */,
+			);
+			path = BeforeEach;
+			sourceTree = "<group>";
+		};
+		5B715FC51CA76C9C00134BB0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5B715FC61CA76C9C00134BB0 /* QCKSpecRunner.h */,
+				5B715FC71CA76C9C00134BB0 /* QCKSpecRunner.m */,
+				5B715FC81CA76C9C00134BB0 /* QuickSpec+QuickSpec_MethodList.h */,
+				5B715FC91CA76C9C00134BB0 /* QuickSpec+QuickSpec_MethodList.m */,
+				5B715FCA1CA76C9C00134BB0 /* QuickTestsBridgingHeader.h */,
+				5B715FCB1CA76C9C00134BB0 /* XCTestCaseProvider.swift */,
+				5B715FCC1CA76C9C00134BB0 /* XCTestObservationCenter+QCKSuspendObservation.h */,
+				5B715FCD1CA76C9C00134BB0 /* XCTestObservationCenter+QCKSuspendObservation.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5B715FD11CA76D1100134BB0 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		5B715FD21CA76D1800134BB0 /* DSA_Test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DSA_Test;
+			path = "Data Structs and Algorithms/DSA_Test";
+			sourceTree = "<group>";
+		};
+		5B715FD31CA76D1F00134BB0 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				5B715FD41CA76D1F00134BB0 /* Stack.swift */,
+			);
+			path = Structs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B03BEC41C9F4F8C00FFC519 /* Data_Structs_and_Algorithms.m in Sources */,
+				5B715F761CA76C6E00134BB0 /* Randoms.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,18 +525,25 @@
 		5B03BEC81C9F4F8C00FFC519 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Data Structs and Algorithms/Data Structs and Algorithms-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		5B03BEC91C9F4F8C00FFC519 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Data Structs and Algorithms/Data Structs and Algorithms-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -246,6 +566,7 @@
 				5B03BEC91C9F4F8C00FFC519 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
