@@ -1,8 +1,8 @@
 //
-//  Stack.swift
+//  Queue.swift
 //  Data Structs and Algorithms
 //
-//  Created by Michael Hollingshaus on 3/20/16.
+//  Created by Michael Hollingshaus on 3/26/16.
 //  Copyright © 2016 LittleGiant. All rights reserved.
 //
 
@@ -18,23 +18,21 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 import Foundation
 
-/* A Stack is a "simple data structure that allows adding and removing elements in a particular order. Every time an element is added, it goes on the top of the stack; the only element that can be removed is the element that was at the top of the stack. Consequently, a stack is said to have "first in last out" behavior (or "last in, first out"). The first item added to a stack will be the last item removed from a stack." - cprogramming.com */
+/* In practicality, the queue is incredibly similar to the stack, except it is FIFO rather than LIFO. It is generally used in situations where data is to be held and interpreted later */
 
-// After some experimentation, I have found that this is best used in situations requiring rote storage of small amounts of data as addition and removal is simple but actually accessing data isn't used that often.
-
-
-class Stack {
+class Queue {
     
     // MARK: Properties
     
     var size: Int
     var top: Node?
+    var bot: Node?
     
     // MARK: Functions
     
     
-    // Stores a new element inside of the stack
-    func push(newTop: Node) {
+    // Stores a new element inside of the queue
+    func enqueue(newTop: Node) {
         if top != nil {
             self.top.setLeft(newTop)
             newTop.setRight(top)
@@ -44,22 +42,29 @@ class Stack {
         self.size++
     }
     
-    // Pops the top node off of the stack
-    func pop() {
+    // releases the bot node off of the queue
+    func dequeue() -> Node {
         if self.top == nil {
             return
         }
         
         var dummy = Node
-        var newTop = self.top.getRight()
-        newTop.setLeft(dummy)
-        self.top = newTop
+        var returnNode = self.bot
+        self.bot = self.bot.getLeft()
+        self.bot.setRight(dummy)
         self.size--
+        
+        return returnNode
     }
     
-    // Looks at the value of the top node of the stack
-    func peek() -> Int {
+    // Looks at the value of the top node of the queue
+    func peekTop() -> Int {
         return self.top.getValue()
+    }
+    
+    // Looks at the value of the bot node of the queue
+    func peekBot() -> Int {
+        return self.bot.getValue()
     }
     
     // returns value of each node value in stack
@@ -74,8 +79,9 @@ class Stack {
     
     // MARK: Init
     
-    func Init(top: Node) {
+    func Init(top: Node, bot: Node) {
         self.size = 0
         self.top = top
+        self.bot = bot
     }
 }

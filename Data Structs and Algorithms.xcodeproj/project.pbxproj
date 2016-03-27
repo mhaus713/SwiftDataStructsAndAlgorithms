@@ -10,6 +10,8 @@
 		5B03BEC21C9F4F8C00FFC519 /* Data_Structs_and_Algorithms.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B03BEC11C9F4F8C00FFC519 /* Data_Structs_and_Algorithms.h */; };
 		5B03BEC41C9F4F8C00FFC519 /* Data_Structs_and_Algorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B03BEC31C9F4F8C00FFC519 /* Data_Structs_and_Algorithms.m */; };
 		5B715F761CA76C6E00134BB0 /* Randoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B715F731CA76C6E00134BB0 /* Randoms.swift */; };
+		5B715FD61CA76DBA00134BB0 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B715FD51CA76DBA00134BB0 /* Queue.swift */; };
+		5B715FD81CA76DCE00134BB0 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B715FD71CA76DCE00134BB0 /* Node.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -111,6 +113,8 @@
 		5B715FCF1CA76C9C00134BB0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5B715FD01CA76C9C00134BB0 /* QuickConfigurationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickConfigurationTests.m; sourceTree = "<group>"; };
 		5B715FD41CA76D1F00134BB0 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		5B715FD51CA76DBA00134BB0 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		5B715FD71CA76DCE00134BB0 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -374,6 +378,8 @@
 			isa = PBXGroup;
 			children = (
 				5B715FD41CA76D1F00134BB0 /* Stack.swift */,
+				5B715FD51CA76DBA00134BB0 /* Queue.swift */,
+				5B715FD71CA76DCE00134BB0 /* Node.swift */,
 			);
 			path = Structs;
 			sourceTree = "<group>";
@@ -435,7 +441,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B03BEC41C9F4F8C00FFC519 /* Data_Structs_and_Algorithms.m in Sources */,
+				5B715FD61CA76DBA00134BB0 /* Queue.swift in Sources */,
 				5B715F761CA76C6E00134BB0 /* Randoms.swift in Sources */,
+				5B715FD81CA76DCE00134BB0 /* Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
