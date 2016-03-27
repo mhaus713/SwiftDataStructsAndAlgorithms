@@ -1,16 +1,27 @@
-Hello!
-
-My name is Michael Hollingshaus and I am a computer science student attempting to further my knowledge fundamental data structures and algorithms in my free time.
-
-I have created this library with the intent of using it in personal projects, but if you would like to access it, you are more than welcome to, so long as you give proper credit where it is due. I won't be super picky as to how you choose to do so, but would appreciate it.
-
-This code is by no means complete or amazing, as I am still doing my best to learn, and any feedback is appreciated in how to make this codebase better.
-
-You are free to modify, use, abuse, modify, break, love, cherish, badmouth, etc. this code. It is intended for legal and honest purposes, and I hold no responsibility for any legal troubles that may arise should you choose to use these files.
 
 ----------------------------------------------------------
 
-The following few paragraphs are for legal purposes.
+DISCLAIMER
+
+----------------------------------------------------------
+
+Hello!
+
+My name is Michael Hollingshaus and I am a computer science student attempting to further my knowledge of fundamental data structures and algorithms in my free time.
+
+I have created this library with the intent of using it in personal projects, and to play with as a kind of personal encyclopedia and experiment in dynamic learning, but if you would like to access it, you are more than welcome to, so long as you give proper credit where it is due. I won't be super picky as to how you choose to do so, but would appreciate it.
+
+This code is by no means complete or amazing, as I am still learning, and any feedback is appreciated in how to make this codebase better, more efficient, and usable.
+
+You are free to modify, use, abuse, break, love, cherish, badmouth, etc. this code. It is intended for legal, honest, and educational practice, and I hold no responsibility for any troubles that may arise should you choose to use any of these files.
+
+NOTE: The term "data structure" is used loosely, as these are not "official" implementations of known data structure common practices. Many of them may have added functionality and varying implementation for ease-of-use and simplicity's sake.
+
+----------------------------------------------------------
+
+The following few paragraphs are the actual license and are for legal purposes (so my ass is covered properly - you know how it goes).
+
+LICENSE
 
 ----------------------------------------------------------
 
